@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+/* main tags */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  background-color: white;
+}
+
+a {
+  color: rgb(170, 187, 204);
+  background-color: rgb(36 37 39);
+}
+
+header {
+  background-color: rgb(36 37 39);
+}
+
+li {
+  margin: 0px 10px;
+  font-size: 25px;
+  border-bottom: 3px solid rgb(170, 187, 204);
+}
+
+.heading {
+  background-color: rgb(170, 187, 204);
+  color: rgb(36 37 39);
+  font-weight: 800;
+}
+
+.jumbotron {
+  background-image: url(../images/02-hero-bg.jpg);
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.portrait {
+  height: 200px;
+  border-radius: 50%;
+}
