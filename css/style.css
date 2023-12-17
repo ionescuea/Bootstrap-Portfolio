@@ -11,16 +11,24 @@ body {
   background-color: white;
 }
 
-a {
+nav a {
   color: rgb(170, 187, 204);
   background-color: rgb(36 37 39);
+}
+
+h3 {
+  font-size: 40px;
+  text-align: right;
+  padding: 30px;
+  color: rgb(83, 99, 114);
+  font-weight: 800;
 }
 
 header {
   background-color: rgb(36 37 39);
 }
 
-li {
+nav li {
   margin: 0px 10px;
   font-size: 25px;
   border-bottom: 3px solid rgb(170, 187, 204);
@@ -43,4 +51,17 @@ li {
 .portrait {
   height: 200px;
   border-radius: 50%;
+}
+
+.section-content {
+  border-left: 5px solid rgb(83, 99, 114);
+  font-size: 20px;
+}
+
+.card:hover {
+  text-decoration: none;
+}
+
+.card-body {
+  color: rgb(36 37 39);
 }
