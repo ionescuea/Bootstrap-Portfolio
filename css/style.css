@@ -65,3 +65,19 @@ nav li {
 .card-body {
   color: rgb(36 37 39);
 }
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.surf {
+  width: 195%;
+  background-size: cover;
+  background-position: center;
+}
+
+a:hover {
+  background-color: yellow;
+}
