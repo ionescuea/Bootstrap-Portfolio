@@ -17,11 +17,9 @@ nav a {
 }
 
 h3 {
-  font-size: 40px;
   text-align: right;
   padding: 30px;
   color: rgb(83, 99, 114);
-  font-weight: 800;
 }
 
 header {
@@ -30,7 +28,6 @@ header {
 
 nav li {
   margin: 0px 10px;
-  font-size: 25px;
   border-bottom: 3px solid rgb(170, 187, 204);
 }
 
@@ -55,7 +52,6 @@ nav li {
 
 .section-content {
   border-left: 5px solid rgb(83, 99, 114);
-  font-size: 20px;
 }
 
 .card:hover {
@@ -72,12 +68,7 @@ nav li {
   object-fit: cover;
 }
 
-.surf {
-  width: 195%;
-  background-size: cover;
-  background-position: center;
-}
-
 a:hover {
-  background-color: yellow;
+  background-color: rgb(170, 187, 204);
+  border-radius: 5px;
 }
